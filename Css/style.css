@@ -1,0 +1,369 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+nav {
+    width: 100%;
+    background-color: white;
+    color: black;
+    background-attachment: fixed;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+nav .logo {
+    margin: 75px;
+    font-size: 28px;
+    align-items: center;
+    top: 5px;
+     font-family: 'Kanit', sans-serif;
+    font-display: uppercase;
+}
+
+.templates{
+    background-image: url(../images/cba.jpg);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: 100%;
+    margin: 0%;
+    padding-top: 10px;
+    text-align: ce
+
+}
+
+nav .menu {
+ color: black;
+ justify-content: space-around;
+  font-family: 'Kanit', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  display: flex;
+  width: 36%;
+ 
+}
+ .menu .home:hover  {
+    color: green;
+    transition-delay: 0.1s; 
+    transition-duration: o.6s;
+}
+.menu .about:hover {
+    color: rgb(166, 123, 43);
+    transition-delay: 0.1s; 
+    transition-duration: o.6s;
+}
+.menu .album:hover {
+    color: rgb(126, 29, 29);
+    transition-delay: 0.1s; 
+    transition-duration: o.6s;
+}
+.menu .contacts:hover {
+    color: rgb(218, 14, 14);
+    transition-delay: 0.1s; 
+    transition-duration: o.6s;
+}
+
+nav .menu a {
+    text-decoration: none;
+    color: black;
+    justify-content: space-arounds;
+}
+ 
+button {
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+    background-color: indigo;
+    color: white;
+    border-radius: 10px;
+}
+
+span {
+    font-family: 'Kanit', sans-serif;
+   font-size: 35px;
+}
+
+.templates h1 {
+    margin-top: 48.7px;
+    margin-left: 14px;
+    color: white;
+    font-size: 48px;
+    letter-spacing: 0.5rem;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+.container{
+    width: 400px;
+    height: 250px;
+    color: white;
+    background-color: rgb(126, 29, 29);
+    display: flex;
+    margin: 60px 50px 50px 50px;
+
+}
+.gri-container {
+    width: 99.4%;
+    height: 770px;
+    border: 4px solid rgb(28, 24, 24);
+}
+  
+ .gri-container .dsa {
+    margin-top: 70px;
+    margin-left: 195px;
+    display: flex;             
+    position: absolute;
+    border: 5px solid black;
+    transition: width 3s;
+ }
+ .gri-container .dsa:hover {
+  width: 500px;
+  height: 370px;
+ }
+ .gri-container .cda {
+    margin-top: 70px;
+    margin-left: 805px;
+    position: absolute;
+    border: 5px solid black;
+
+ }
+
+ .gri-container .ghf{
+   margin-top: 410px;
+   margin-left: 805px;
+   border: 5px solid black;
+   margin-bottom: 70px;
+   position: absolute;
+ }
+ .gri-container .cba{
+   margin-top: 410px;
+   margin-left: 195px;
+   position: absolute;
+   border: 5px solid black;
+
+ }
+ .stores-container {
+    display: flex;
+ }
+
+ .stores-container {
+    width: 100%;
+    height: 630px;
+     background-color: black;
+
+    
+ }
+ .stores-container .album1 {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 40px;
+
+ }
+ .stores-container .album2 {
+    position: absolute;
+    margin-left: 410px;
+    margin-top: 30px;
+
+ }
+ .stores-container .album3 {
+    position: absolute;
+    margin-left: 770px;
+    margin-top: 30px;
+
+ }
+ .stores-container .album4 {
+    position: absolute;
+    margin-left: 1150px;
+    margin-top: 30px;
+ }
+ 
+ .store-ly{
+    
+    align-items: center;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 650px;
+    
+
+ }
+ .store-ly span{
+    font-size: 28px;
+    letter-spacing: 0.1em; 
+    padding: 10px 20px;
+    border-radius: 25%;
+ }
+ .store1  {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 205px;
+ }
+ .store2 {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 585px;
+ }
+
+ .store3 {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 940px;
+ }
+ .about-container {
+    width: 100%;
+    height: 830px;
+    background-color: rgb(43, 38, 38)
+    
+ }
+ .about-photo {
+    margin-left: 600px;
+    position: absolute;
+    margin-top: 30px;
+    border-radius: 50%;
+    border: 5px solid black;
+ }
+ .RISHI {
+   position: absolute;
+   margin-top: 275px;
+   margin-left: 614px;
+   color: rgb(232, 225, 225);
+   
+
+ }
+ .front-feedback {
+   margin-top: 360px;
+   margin-left: 145px;
+   position: absolute;
+   color: rgb(228, 221, 221);
+   font-size: 30px;
+ }
+ .quotation-mark {
+   position: absolute;
+   margin-top: 400px;
+   margin-left: 500px;
+ }
+ .quotation-mark1 {
+   position: absolute;
+   margin-top: 400px;
+   margin-left: 880px;
+ }
+
+ .quotation-mark2 {
+   position: absolute;
+   margin-top: 400px;
+   margin-left: 1230px;
+ } 
+ .feedback-burman {
+   position: absolute;
+   margin-top: 455px;
+   margin-left: 460px;
+   font-size: 19px;
+   font-family: 'Kanit', sans-serif;
+   color: rgb(242, 234, 234);
+ }
+ .feedback-kamal {
+   position: absolute;
+   margin-top: 455px;
+   margin-left: 830px;
+   font-size: 19px;
+   font-family: 'Kanit', sans-serif;
+   color: rgb(242, 234, 234);
+ }
+ .contacts-container {
+   width: 100%;
+   height: 540px;
+   background-color: rgb(242, 234, 234);
+   padding: 0px;
+   margin: 0px;
+   
+ }
+ .last-logo {
+  position: absolute;
+  margin-top: 130px;
+  margin-left: 90px;
+ }
+ .lappy {
+  position: absolute;
+  margin-top: 160px;
+  margin-left: 350px;
+ }
+ .email-portion {
+  position: absolute;
+  margin-top: 99px;
+  margin-left: 700px;
+ }
+ .email-logo {
+  position: absolute;
+  margin-top: 165px;
+  margin-left: 660px;
+ }
+ .email{
+  position: absolute;
+  margin-top: 138px;
+  margin-left: 700px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+ }
+ .contact-portion {
+  position: absolute;
+  margin-top: 110px;
+  margin-left: 1050px;
+ }
+ .lappy2 {
+  position: absolute;
+  margin-top: 155px;
+  margin-left: 1065px;
+  text-decoration: none;
+  color: black;
+ }
+ .INSTAGRAM  {
+  position: absolute;
+  text-decoration: none;
+  color: black;
+
+ }
+ .FACEBOOK{
+  position: absolute;
+  text-decoration: none;
+  margin-top: 24PX;
+  color: black;
+
+ }
+ .TWITTER {
+  position: absolute;
+  text-decoration: none;
+  margin-top: 47PX;
+  color: black;
+
+ }
+ .LINKEDIN {
+  position: absolute;
+  text-decoration: none;
+  margin-top: 69PX;
+  color: black;
+
+ }
+ .GITHUB{
+  position: absolute;
+  text-decoration: none;
+  margin-top: 93PX;
+  color: black;
+ }
+ .bottom {
+  position: absolute;
+  margin-top: 465px;
+  margin-left: 730px;
+ }
+ .content {
+  position: absolute;
+  margin-top: 110px;
+  margin-left: 360px;
+ }
